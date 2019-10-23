@@ -5,7 +5,9 @@ TODO
 
 # Research questions
 How does the food we daily eat affects the environment?
+
 Are current trends in the food production sustainable?
+
 How many trees does my steak cost the Amazon forest?
 
 # Dataset
