@@ -4,10 +4,10 @@
 TODO
 
 ## Research questions
-Why forests disapper and what's the biggest cause of deforestation?
-Which countries are biggest exporters of wood?
-How can I influence the deforestation in a positive way?
-It deforestation speed changing over a time, and is this trend sustainable?
+- Why forests disapper and what's the biggest cause of deforestation?
+- Which countries are biggest exporters of wood?
+- How can I influence the deforestation in a positive way?
+- It deforestation speed changing over a time, and is this trend sustainable?
 
 
 ## Dataset
@@ -15,16 +15,16 @@ We will mainly work with *Global Food & Agriculture Statistics* dataset, but we 
 
 ## A list of internal milestones up until project milestone 2
 ### Week 1 (28.10. - 3.11.)
-⋅⋅* Data aglomeration and preformating
+- Data aglomeration and preformating
 ### Week 2 (4.11. - 10.11.)
-⋅⋅* Local data analysig
-⋅⋅* Preparatio for running Map Reduce jobs on cluster
+- Local data analysig
+- Preparatio for running Map Reduce jobs on cluster
 ### Week 3 (11.11. - 17.11.)
-⋅⋅* Map reduce jobs
-⋅⋅* Collection of results
+- Map reduce jobs
+- Collection of results
 ### Week 4 (18.10. - 24.11.)
-⋅⋅* Analysis of results
-⋅⋅* Discusion about the results
+- Analysis of results
+- Discusion about the results
 
 
 ## Questions for TAa
