@@ -28,6 +28,6 @@ We will mainly work with *Global Food & Agriculture Statistics* dataset, but we 
 
 
 ## Questions for TAa
-Do you know any ecological open data projects?
-Do you know where could we find satelite pictures of rainforests/woods (Amazon, Siberia, Congo)?
-It is our perspectiove compatible with the topic `Data Analysis for social good`?
+- Do you know any ecological open data projects?
+- Do you know where could we find satelite pictures of rainforests/woods (Amazon, Siberia, Congo)?
+- It is our perspectiove compatible with the topic `Data Analysis for social good`?
