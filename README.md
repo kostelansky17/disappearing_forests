@@ -16,7 +16,7 @@
 - Is there a country in the world where are forrests expanding?
 
 ## Dataset
-We will mainly work with *Global Food & Agriculture Statistics* dataset, but we will try to find another datasources which could enrich our analysis.
+We will mainly work with [Global Food & Agriculture Statistics](https://www.kaggle.com/unitednations/global-food-agriculture-statistics) dataset, but we will try to find another datasources which could enrich our analysis.
 
 ## A list of internal milestones up until project milestone 2
 ### Week 1 (28.10. - 3.11.)
@@ -35,4 +35,4 @@ We will mainly work with *Global Food & Agriculture Statistics* dataset, but we 
 ## Questions for TAa
 - Do you know any ecological open data projects?
 - Do you know where could we find satelite pictures of rainforests/woods (Amazon, Siberia, Congo)?
-- It is our perspectiove compatible with the topic _Data Analysis for social good_?
+- It is our perspectiove compatible with the topic *Data Analysis for social good*?
