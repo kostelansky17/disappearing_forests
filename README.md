@@ -25,6 +25,32 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 
 ## A list of internal milestones up until project milestone 2
 ### Week 1 (28.10. - 3.11.)
+- Data collection from main data set
+  - Forest area [km2 or % of land area] by region and by year
+  - Human activities (e.g. agriculture and land development) and natural disaster (e.g. wildfire) in the region in the year
+- Data exploration as necessary
+  - Complementary data sources to interpret causes of deforestation
+### Week 2 (4.11. - 10.11.)
+- Data exploration as necessary (cont.)
+- Building main data frames
+  - Clean datasets by interpolation, cleansing, and filtering
+  - Merge datasets to main data frames
+- Data analysis
+  - Interpret when and where deforestation have occurred on earth
+  - Detect main causes of deforestation
+  - Perform a case study how deforestation would proceed in the future
+### Week 3 (11.11. - 17.11.)
+- Data analysis (cont.)
+- Data visualization
+  - Design skeleton of data story
+  - Explore effective ways to show data in multiple locations and time frames
+  - Perform visualization
+### Week 4 (18.10. - 24.11.)
+- Data visualization (cont.)
+- Project schedule update
+  - Setup plans for next milestone
+
+### Week 1 (28.10. - 3.11.)
 - Data collection and cleaning
 ### Week 2 (4.11. - 10.11.)
 - Local data analysis
