@@ -1,15 +1,15 @@
-# Why forests disappear
+# Why do forests disappear?
 
 ## Abstract
-Forests make life possible on earth. For example, they provide vital services like CO2 absorption, watershed protection, and prevention of soil erosion as well as being habitat for thousands of wildlife and livelihood for human. However, the forest covering percentage nowadays is sharply decreasing. According to [Nature](https://www.nature.com/articles/nature14967), the global number of trees has fallen by 46% since the start of human civilization. Even worse, from the recent news, thousands of fires have burned across most of the regions of Amazon rainforest, severely destroying the important carbon storehouse left on Earth. In addition, almost at the same time, huge wildfires broke out in Russia’s Siberian Province, bringing toxic thick smoke to the atmosphere. From these cases, deforestation has become one of the serious issues we human beings encounter. It is the problem we need to solve immediately.
+Forests make life possible on earth. They provide vital services like CO2 absorption, watershed protection and prevention of soil erosion as well as being habitat for wildlife and guaranteeing livelihood for human. However, the forest covering percentage nowadays is sharply decreasing. According to [Nature](https://www.nature.com/articles/nature14967), the global number of trees has fallen by 46% since the start of human civilization. Even worse, this summer thousands of fires have burned across most of the regions of Amazon rainforest, severely destroying the important carbon storehouse left on Earth. In addition, almost at the same time, huge wildfires broke out in Russia’s Siberian Province, bringing toxic thick smoke to the atmosphere. From these cases, deforestation has become one of the serious issues we human beings encounter.
 
 In this project, our aim is to analyze the cause of deforestation based on our given dataset, trying to link it to the food production (grazing of livestock and farming), commodities manufacture by means of lumber and minerals extracted from the deforested areas. Moreover, we will investigate the deforestation rate during the last decade in different geographical regions, finding the trend in each country. Lastly, by our thorough analysis, we will try to put forth possible methods for alleviating deforestation.
 
 ## Research questions
-- Why forests disappear and what's the biggest cause of deforestation?
+- Why do forests disappear and what is the biggest cause of deforestation?
 - Which country is the biggest exporter of wood?
-- How can I influence the deforestation in a positive way?
-- Is deforestation speed changing over a time, or does this trend remain constant?
+- How can deforestation be limited?
+- Is deforestation speed changing over a time or does this trend remain constant?
 - Is there any country whose forests are expanding?
 
 ## Dataset
