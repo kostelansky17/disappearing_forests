@@ -1,22 +1,16 @@
 # Why forests disappear
 
 ## Abstract
-Forests make life on earth possible. They provide vital services like CO2 absorption, watershed protection, and prevention of soil erosion as well as being habitat for thousands of life forms and livelihood for human.
+Forests make life possible on earth . For example, they provide vital services like CO2 absorption, watershed protection, and prevention of soil erosion as well as being habitat for thousands of wildlife and livelihood for human. However, the forest covering percentage nowadays is sharply decreasing. According to [Nature](https://www.nature.com/articles/nature14967), the global number of trees has fallen by 46% since the start of human civilization. Even worse, from the recent news, thousands of fires have burned across most of the regions of Amazon rainforest, severely destroying the important carbon storehouse left on Earth. In addition, almost at the same time, huge wildfires broke out in Russia’s Siberian Province, bringing toxic thick smoke to the atmosphere. From these cases, deforestation has become one of the serious issues we human beings encounter. It is the problem we need to solve immediately.
 
-Forests cover about 30% of the Earth total land area but this percentage is shrinking while the pace of deforestation is increasing. [An estimate of Nature](https://www.nature.com/articles/nature14967) says that the global number of trees has fallen by 46% since the start of human civilization, but the process is very heterogeneous both in time and space. In Latin America, for example, the reduction of forest areas maintains an ascending trend while Indonesia sees an encouraging drop in Primary Forest loss in 2017, [Global Forest Watch says](https://blog.globalforestwatch.org/data-and-research/2017-was-the-second-worst-year-on-record-for-tropical-tree-cover-loss). Our aim is to investigate the trend of deforestation during the last decades in different geographical regions, trying to link it to the food production (grazing of livestock and farming) and, more in general, to commodities creation by means of lumber itself and minerals extracted from the deforested areas. Recent massive wildfires in the Amazon and Siberia areas contributed to create awareness of the problem and added an (also) natural component to the aforementioned anthropic causes, linking the topic to the much discussed issue of climate change.
-
-- [x] the trees and their role in the global warmig / ecology?ak.a. why wy have selected it? why it's happening?
-- [x] the trend over recent years - some data
-- [x] the natural disaster over last year - fires etc.
-- [x] exploring the trend? time and space? some contries exmaples maybe?
-- [x] why have we selected this topic? - Why are forest disappearing?
+In this project, our aim is to analyze the cause of deforestation based on our given dataset, trying to link it to the food production (grazing of livestock and farming), commodities manufacture by means of lumber and minerals extracted from the deforested areas. Moreover, we will investigate the rate of deforestation during the last decades in different geographical regions, finding deforestation trend in each country. Lastly, by our thorough analysis, we also try to put forth possible methods to alleviate deforestation.
 
 ## Research questions
 - Why forests disappear and what's the biggest cause of deforestation?
-- Which countries are biggest exporters of wood?
+- Which country is the biggest exporter of wood?
 - How can I influence the deforestation in a positive way?
-- It deforestation speed changing over a time, and is this trend sustainable?
-- Is there a country in the world where are forests expanding?
+- Is deforestation speed changing over a time, or does this trend remain constant?
+- Is there any country whose forests are expanding?
 
 ## Dataset
 We will mainly work with [Global Food & Agriculture Statistics](https://www.kaggle.com/unitednations/global-food-agriculture-statistics) dataset provided by FAO. Other datasources which could enrich our analysis will be taken into account eventually.
@@ -62,5 +56,5 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 ## Questions for TAs
 
 - Do you know any ecological open data projects?
-- Do you know where could we find satellite pictures of rainforests/woods (Amazon, Siberia, Congo) over time?
-- It is our point of view compatible with the topic *Data Analysis for social good*?
+- Do you know where we could find satellite pictures of rainforests/woods (Amazon, Siberia, Congo) over time?
+- Is our point of view compatible with the topic *Data Analysis for social good*?
