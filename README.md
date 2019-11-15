@@ -12,6 +12,9 @@ In this project, our aim is to analyze the cause of deforestation based on our g
 - Is deforestation speed changing over a time or does this trend remain constant?
 - Is there any country whose forests are expanding?
 
+## Research goals
+**TODO**
+
 ## Dataset
 We will mainly work with [Global Food & Agriculture Statistics](https://www.kaggle.com/unitednations/global-food-agriculture-statistics) dataset provided by FAO. Other datasources which could enrich our analysis will be taken into account eventually.
 
@@ -52,6 +55,12 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 - Analysis of the results
 - Project schedule update
   - Setup plans for next milestone
+
+## A list of internal milestones up until project milestone 3
+**TODO**
+
+## A list of internal milestones up until project milestone 3
+**TODO**
 
 ## Questions for TAs
 
