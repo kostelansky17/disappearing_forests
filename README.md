@@ -6,6 +6,7 @@ Forests make life possible on earth. They provide vital services like CO2 absorp
 In this project, our aim is to analyze the cause of deforestation based on our given dataset, trying to link it to the food production (grazing of livestock and farming), commodities manufacture by means of lumber and minerals extracted from the deforested areas. Moreover, we will investigate the deforestation rate during the last decade in different geographical regions, finding the trend in each country. Lastly, by our thorough analysis, we will try to put forth possible methods for alleviating deforestation.
 
 ## Research questions
+
 - Why do forests disappear and what is the biggest cause of deforestation?
 - Which country is the biggest exporter of wood?
 - How can deforestation be limited?
@@ -13,7 +14,15 @@ In this project, our aim is to analyze the cause of deforestation based on our g
 - Is there any country whose forests are expanding?
 
 ## Research goals
-**TODO**
+
+- Identify the trend of deforestation in the World
+- Find Countries/Areas which have been deforested the most
+- Search for positive examples between counties
+- Find the biggest producers of wood and investigate the impact of wood mining to deforestation
+- Search for correlations between agriculture industry/animal husbandry
+- ? Impact of growing cities on the forests and landscape
+- ? Natural disasters (fires) in 2018 in the forests
+- ? Emissions held in forests and their removal
 
 ## Dataset
 We will mainly work with [Global Food & Agriculture Statistics](https://www.kaggle.com/unitednations/global-food-agriculture-statistics) dataset provided by FAO. Other datasources which could enrich our analysis will be taken into account eventually.
@@ -56,10 +65,7 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 - Project schedule update
   - Setup plans for next milestone
 
-## A list of internal milestones up until project milestone 3
-**TODO**
-
-## A list of internal milestones up until project milestone 3
+## A list of internal milestones up until Poster presentation
 **TODO**
 
 ## Questions for TAs
