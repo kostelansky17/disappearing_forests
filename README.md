@@ -16,10 +16,12 @@ In this project, our aim is to analyze the cause of deforestation based on our g
 ## Research goals
 
 - Identify the trend of deforestation in the World
-- Find Countries/Areas which have been deforested the most
-- Search for positive examples between counties
-- Find the biggest producers of wood and investigate the impact of wood mining to deforestation
-- Search for correlations between agriculture industry/animal husbandry
+- Find the most deforested Countries/Areas
+- Search for positive examples between counties in the terms of deforestation
+- Investigate the deforestation in the most forested countries
+- Find the biggest producers of wood and investigate the impact of wood mining on deforestation
+- Look for the biggest Importers/Exporters (countries) in the world and the connections between them
+- Search for correlations between agriculture industry/animal husbandry and deforestation
 - ? Impact of growing cities on the forests and landscape
 - ? Natural disasters (fires) in 2018 in the forests
 - ? Emissions held in forests and their removal
@@ -66,7 +68,22 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
   - Setup plans for next milestone
 
 ## A list of internal milestones up until Poster presentation
-**TODO**
+
+### Week 5 (25.11. - 1.12.)
+- TODO
+
+### Week 6 (2.12. - 8.12.)
+- TODO
+
+### Week 7 (9.12. - 15.12.)
+- TODO
+
+### Week 8 (16.12. - 22.12.)
+- TODO
+
+### Weeks 9-12 (23.12. - 20.1.)
+- TODO
+
 
 ## Questions for TAs
 
