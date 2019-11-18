@@ -70,20 +70,37 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 ## A list of internal milestones up until Poster presentation
 
 ### Week 5 (25.11. - 1.12.)
-- TODO
+
+- Sketch the GitHub page
+- Choose the graphical representations of the data analysis
 
 ### Week 6 (2.12. - 8.12.)
-- TODO
+
+- Create plots for the Data Story
+- Start to write text of the Data Story
 
 ### Week 7 (9.12. - 15.12.)
-- TODO
+
+- Create the initial GitHub page
+- Finish textual part of the Data Story
 
 ### Week 8 (16.12. - 22.12.)
-- TODO
 
-### Weeks 9-12 (23.12. - 20.1.)
-- TODO
+- Finish the design of the Data Story for **Milestone 3**
 
+### Week 9 (23.12. - 29.12.)
+
+- Christmas :gift: :christmas_tree: :santa: :bell:
+
+### Week 10 (30.12. - 5.1.)
+
+- Sketch the poster
+- Create the graphs
+
+### Weeks 11-13 (6.12. - 20.1.)
+
+- Create textual part of the poster
+- Design the poster
 
 ## Questions for TAs
 
