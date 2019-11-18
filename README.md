@@ -67,7 +67,7 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 - Project schedule update
   - Setup plans for next milestone
 
-## A list of internal milestones up until Poster presentation
+## A list of internal milestones up until the Poster Presentation
 
 ### Week 5 (25.11. - 1.12.)
 
