@@ -22,9 +22,6 @@ In this project, our aim is to analyze the cause of deforestation based on our g
 - Find the biggest producers of wood and investigate the impact of wood mining on deforestation
 - Look for the biggest Importers/Exporters (countries) in the world and the connections between them
 - Search for correlations between agriculture industry/animal husbandry and deforestation
-- ? Impact of growing cities on the forests and landscape
-- ? Natural disasters (fires) in 2018 in the forests
-- ? Emissions held in forests and their removal
 
 ## Dataset
 We will mainly work with [Global Food & Agriculture Statistics](https://www.kaggle.com/unitednations/global-food-agriculture-statistics) dataset provided by FAO. Other datasources which could enrich our analysis will be taken into account eventually.
