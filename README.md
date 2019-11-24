@@ -1,6 +1,7 @@
 # Why do forests disappear?
 
 ## Abstract
+
 Forests make life possible on earth. They provide vital services like CO2 absorption, watershed protection and prevention of soil erosion as well as being habitat for wildlife and guaranteeing livelihood for human. However, the forest covering percentage nowadays is sharply decreasing. According to [Nature](https://www.nature.com/articles/nature14967), the global number of trees has fallen by 46% since the start of human civilization. Even worse, this summer thousands of fires have burned across most of the regions of Amazon rainforest, severely destroying the important carbon storehouse left on Earth. In addition, almost at the same time, huge wildfires broke out in Russia’s Siberian Province, bringing toxic thick smoke to the atmosphere. From these cases, deforestation has become one of the serious issues we human beings encounter.
 
 In this project, our aim is to analyze the cause of deforestation based on our given dataset, trying to link it to the food production (grazing of livestock and farming), commodities manufacture by means of lumber and minerals extracted from the deforested areas. Moreover, we will investigate the deforestation rate during the last decade in different geographical regions, finding the trend in each country. Lastly, by our thorough analysis, we will try to put forth possible methods for alleviating deforestation.
@@ -24,6 +25,7 @@ In this project, our aim is to analyze the cause of deforestation based on our g
 - Search for correlations between agriculture industry/animal husbandry and deforestation
 
 ## Dataset
+
 We will mainly work with [Global Food & Agriculture Statistics](https://www.kaggle.com/unitednations/global-food-agriculture-statistics) dataset provided by FAO. Other datasources which could enrich our analysis will be taken into account eventually.
 
 ## A list of internal milestones up until project milestone 2
@@ -68,22 +70,26 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 
 ### Week 5 (25.11. - 1.12.)
 
-- Sketch the GitHub page
-- Choose the graphical representations of the data analysis
+- Design skeleton of the data story
+  - Select parts of analysis a which will be included in the data story
+  - Chose appropriate graphical representations (w.r.t. GitHub page and Jekyll)
 
 ### Week 6 (2.12. - 8.12.)
 
-- Create plots for the Data Story
-- Start to write text of the Data Story
+- Create plots for the data story
+- Start writing a textual part of the story
 
 ### Week 7 (9.12. - 15.12.)
 
-- Create the initial GitHub page
-- Finish textual part of the Data Story
+- Create a GitHub page
+  - Get familiar with Jekyll
+  - Create initial design of the data story
+- Finish textual descriptions
 
 ### Week 8 (16.12. - 22.12.)
 
-- Finish the design of the Data Story for **Milestone 3**
+- Finish all plots and charts
+- Work on the design of the data story for Milestone 3
 
 ### Week 9 (23.12. - 29.12.)
 
@@ -92,15 +98,18 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 ### Week 10 (30.12. - 5.1.)
 
 - Sketch the poster
-- Create the graphs
+- Create plots (w.r.t. to the poster)
 
-### Weeks 11-13 (6.12. - 20.1.)
+### Week 11 (6.1. - 12.1.)
 
 - Create textual part of the poster
 - Design the poster
 
-## Questions for TAs
+### Week 12 (13.1. - 19.1.)
 
-- Do you know any ecological open data projects?
-- Do you know where we could find satellite pictures of rainforests/woods (Amazon, Siberia, Congo) over time?
-- Is our point of view compatible with the topic *Data Analysis for social good*?
+- Finish the poster
+- Print the poster in advance
+
+### Week 13 (20.1.)
+
+- Poster Presentation
