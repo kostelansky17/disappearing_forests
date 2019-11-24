@@ -10,7 +10,7 @@ In this project, our aim is to analyze the cause of deforestation based on our g
 
 - Why do forests disappear and what is the biggest cause of deforestation?
 - Which country is the biggest exporter of wood?
-- How can deforestation be limited?
+- On which countries should be made pressure to stop deforestation?
 - Is deforestation speed changing over a time or does this trend remain constant?
 - Is there any country whose forests are expanding?
 
