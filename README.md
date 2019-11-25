@@ -67,6 +67,8 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 
 ## A list of internal milestones up until the Poster Presentation
 
+![Timeline of internal milestones](data/images/ada_timeline_2.png)
+
 ### Week 5 (25.11. - 1.12.)
 
 - Data analysis (cont.)
@@ -91,6 +93,8 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 
 - Finish all plots and charts
 - Work on the design of the data story for Milestone 3
+
+![Timeline of internal milestones](data/images/ada_timeline_3.png)
 
 ### Week 9 (23.12. - 29.12.)
 
