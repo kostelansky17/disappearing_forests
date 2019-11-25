@@ -61,8 +61,8 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 
 ### Week 4 (18.10. - 24.11.)
 
+- Data analysis (cont.)
 - Data visualization (cont.)
-- Analysis of the results
 - Project schedule update
   - Setup plans for next milestone
 
@@ -70,6 +70,8 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 
 ### Week 5 (25.11. - 1.12.)
 
+- Data analysis (cont.)
+- Data visualization (cont.)
 - Design skeleton of the data story
   - Select parts of analysis a which will be included in the data story
   - Chose appropriate graphical representations (w.r.t. GitHub page and Jekyll)
