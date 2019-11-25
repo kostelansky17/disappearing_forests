@@ -18,11 +18,10 @@ In this project, our aim is to analyze the cause of deforestation based on our g
 
 - Identify the trend of deforestation in the World
 - Find the most deforested Countries/Areas
-- Search for positive examples between counties in the terms of deforestation
 - Investigate the deforestation in the most forested countries
-- Find the biggest producers of wood and investigate the impact of wood mining on deforestation
-- Look for the biggest Importers/Exporters (countries) in the world and the connections between them
-- Search for correlations between agriculture industry/animal husbandry and deforestation
+- Find the biggest producer of wood and investigate the impact of wood mining on deforestation
+- Look for the biggest Importer/Exporter in the world and the connection between them
+- Search for correlation between agriculture industry/animal husbandry and deforestation
 
 ## Dataset
 
@@ -61,8 +60,8 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 
 ### Week 4 (18.10. - 24.11.)
 
+- Data analysis (cont.)
 - Data visualization (cont.)
-- Analysis of the results
 - Project schedule update
   - Setup plans for next milestone
 
@@ -70,6 +69,8 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 
 ### Week 5 (25.11. - 1.12.)
 
+- Data analysis (cont.)
+- Data visualization (cont.)
 - Design skeleton of the data story
   - Select parts of analysis a which will be included in the data story
   - Chose appropriate graphical representations (w.r.t. GitHub page and Jekyll)
