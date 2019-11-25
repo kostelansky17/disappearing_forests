@@ -18,11 +18,10 @@ In this project, our aim is to analyze the cause of deforestation based on our g
 
 - Identify the trend of deforestation in the World
 - Find the most deforested Countries/Areas
-- Search for positive examples between counties in the terms of deforestation
 - Investigate the deforestation in the most forested countries
-- Find the biggest producers of wood and investigate the impact of wood mining on deforestation
-- Look for the biggest Importers/Exporters (countries) in the world and the connections between them
-- Search for correlations between agriculture industry/animal husbandry and deforestation
+- Find the biggest producer of wood and investigate the impact of wood mining on deforestation
+- Look for the biggest Importer/Exporter in the world and the connection between them
+- Search for correlation between agriculture industry/animal husbandry and deforestation
 
 ## Dataset
 
