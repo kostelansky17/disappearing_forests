@@ -1,3 +1,5 @@
 .vscode/*
 data/faostat/*.csv
 
+data/map
+data/other_sources
