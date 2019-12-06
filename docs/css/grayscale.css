@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #275E3E;
+  border: 1px solid #275E3E;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -72,15 +72,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #275E3E;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #275E3E;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #275E3E;
   }
 }
 
@@ -146,15 +146,15 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #275E3E;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #32774E;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #32774E;
   color: white;
 }
 
@@ -162,48 +162,142 @@
   background-color: #467370 !important;
 }
 
-.about-section {
+.intro-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
-.about-section p {
+.intro-section p {
   margin-bottom: 5rem;
 }
 
-.projects-section {
+.trend-section {
   padding: 10rem 0;
 }
 
-.projects-section .featured-text {
+.trend-section .featured-text {
   padding: 2rem;
 }
 
 @media (min-width: 992px) {
-  .projects-section .featured-text {
+  .trend-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #275E3E;
   }
 }
 
-.projects-section .project-text {
+.trend-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
 
 @media (min-width: 992px) {
-  .projects-section .project-text {
+  .trend-section .project-text {
     padding: 5rem;
   }
-  .projects-section .project-text hr {
-    border-color: #64a19d;
+  .trend-section .project-text hr {
+    border-color: #275E3E;
     border-width: .25rem;
     width: 30%;
   }
 }
 
-.signup-section {
+.trade-section {
   padding: 10rem 0;
+}
+
+.trade-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .trade-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #275E3E;
+  }
+}
+
+.trade-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .trade-section .project-text {
+    padding: 5rem;
+  }
+  .trade-section .project-text hr {
+    border-color: #275E3E;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+.agri-section {
+  padding: 10rem 0;
+}
+
+.agri-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .agri-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #275E3E;
+  }
+}
+
+.agri-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .agri-section .project-text {
+    padding: 5rem;
+  }
+  .agri-section .project-text hr {
+    border-color: #275E3E;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+.hope-section {
+  padding: 10rem 0;
+}
+
+.hope-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .hope-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #275E3E;
+  }
+}
+
+.hope-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .hope-section .project-text {
+    padding: 5rem;
+  }
+  .hope-section .project-text hr {
+    border-color: #275E3E;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+
+.contact-section {
+  padding: 5rem 0 0;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -211,24 +305,9 @@
   background-size: cover;
 }
 
-.signup-section .form-inline input {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: 'Varela Round';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-}
-
-.contact-section {
-  padding: 5rem 0 0;
-}
-
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #275E3E;
 }
 
 .contact-section .card h4 {
@@ -239,7 +318,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #275E3E;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -272,7 +351,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #275E3E;
 }
 
 a:focus, a:hover {
@@ -285,11 +364,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #275E3E !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #275E3E !important;
 }
 
 footer {
