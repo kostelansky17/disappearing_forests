@@ -22,7 +22,6 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
 
-
 </head>
 
 <body id="page-top">
@@ -76,15 +75,25 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Abstract</h2>
+          <h2 class="text-white text-center mb-4">Abstract</h2>
+            <div style="text-align:center">
+              <iframe src="quote/quote.html" height="200" width="750" frameborder="0" scrolling="no"></iframe>
+            </div>
           <p class="text-white-50 text-justify">
-            Forests make life possible on earth. They provide vital services like CO2 absorption, watershed protection and prevention of soil erosion as well as being habitat for wildlife and guaranteeing livelihood for human. <span class="focus"> However, the forest covering percentage nowadays is sharply decreasing. </span> According to Nature, the global number of trees has fallen by 46% since the start of human civilization. Even worse, this summer thousands of fires have burned across most of the regions of Amazon rainforest, severely destroying the important carbon storehouse left on Earth. In addition, almost at the same time, huge wildfires broke out in Russia’s Siberian Province, bringing toxic thick smoke to the atmosphere. From these cases, deforestation has become one of the serious issues we human beings encounter. <br>
+            Forests provide many important goods and services — for example, they filter water, regulate climate, provide habitat for animal species, ..., etc. <strong class="text-white"> However, the forest coverage nowadays is sharply decreasing.</strong> Even worse, we could often read the news about deforestation including logging, wildfire and other natural disasters, rapidly shrinking our forest areas.<br>
             In this story, our aim is to analyze deforestation based on our given dataset, trying to link it to the food production (grazing of livestock and farming), commodities manufacture by means of lumber and minerals extracted from the deforested areas. Moreover, we will investigate the deforestation rate during the last decade in different geographical regions, finding the trend in each country. Lastly, by our thorough analysis, we will try to put forth possible methods for alleviating deforestation.
           </p>
         </div>
       </div>
     </div>
   </section>
+
+  <div class = "container">
+    <div class="text-center text-lg-left">
+      <br><br><br><br>
+      <h4> <i class="fas fa-exclamation-circle"></i>&nbsp;Disclaimer: All of our plots and analysis are based on <a href="https://www.kaggle.com/unitednations/global-food-agriculture-statistics#fao_data_forest_data.csv"><strong>Global Food & Agriculture Statistics</strong></a>.</h4>
+    </div>
+  </div>
 
   <!-- Trend Section -->
   <section id="trend" class="trend-section bg-white">
@@ -93,65 +102,59 @@
       <!-- 1. World Forest Trend and Distribution -->
       <!-- 1.1 World Forest Trend -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src = "img/world trend.html" height="650" width="730" frameborder="0" scrolling="no"></iframe>
+        <iframe src = "img/plots/world trend.html" height="650" width="730" frameborder="0" scrolling="no"></iframe>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
             <h4>What happened to the world's forests since 1990?</h4>
-            <p class="text-black mb-0">TODO...</p>
+            <p class="text-black mb-0">From the trend plot on the left, we noticed that forest areas in the world has been continuously declining, dropping almost 1 percent compared with the area in 1995. According to <a href="http://www.fao.org/3/a-i4793e.pdf"><strong>FAO</strong></a>, we have lost equivalently 129 million hectares of forests around the globe, approximately the size of South Africa.</p>
           </div>
         </div>
       </div>
 
         <!-- 1.2 World Forest Distribution -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src="img/world map.html" height="650" width="730" frameborder="0" scrolling="no"> </iframe>
+        <iframe src="img/plots/world map.html" height="650" width="730" frameborder="0" scrolling="no"> </iframe>
         <div class="col-xl-4 col-lg-5 order-lg-first">
           <div class="featured-text text-center text-lg-left">
-            <h4> How are forests distributed globally? </h4>
-            <p class="text-black mb-0">TODO...</p>
+            <h4> How are forests distributed throughout the world? </h4>
+            <p class="text-black mb-0">Here we present the percentage of forest areas in each country from 1995 to 2015. From the map, we found that there is obvious reduction of the forest share in those developing countries in South America, Southeast Asia and Africa (Brazil, Indonesia and Zimbabwe for example).</p>
           </div>
         </div>
       </div>
 
-      <hr>
-      <!-- 1.3 Summary -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="text-center text-lg-left">
-          <p class="text-black mb-0"> TODO... </p>
-        </div>
-      </div>
 
       <!-- 2. Continents and Countries Forest Areas -->
       <!-- 2.1 Continent Forest Areas -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src = "img/continents.html" height="650" width="740" frameborder="0" scrolling="no"></iframe>
+        <iframe src = "img/plots/continents.html" height="650" width="740" frameborder="0" scrolling="no"></iframe>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>How about forests in continents?</h4>
-            <p class="text-black mb-0">TODO...</p>
+            <h4>How about forests in each continent?</h4>
+            <p class="text-black mb-0">Overall, we can see that South America and Africa have been steadily decreasing their forest areas over the years. On the contrary, Asia, Europe and North America have been slowly increasing their forests from 1995.</p>
           </div>
         </div>
       </div>
 
       <!-- 2.2 Country Forest Areas -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src="img/countries.html" height="600" width="1600" frameborder="0" scrolling="no"></iframe>
+        <iframe src="img/plots/countries.html" height="600" width="1000" frameborder="0" scrolling="no"></iframe>
         <div class="col-xl-4 col-lg-5 order-lg-first">
           <div class="featured-text text-center text-lg-left">
             <h4>Let's check from each country!</h4>
-            <p class="text-black-50 mb-0">TODO...</p>
+            <p class="text-black mb-0">To give more detailed views, we display the trend plot of forest areas in each nation for everyone to check!</p>
           </div>
+        </div>
+      </div>
+
+      <hr width="1087">
+      <!-- 2.3 Summary -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="text-center text-lg-left">
+          <p class="text-black px-5"> &emsp; TODO... </p>
         </div>
       </div>
     </div>
 
-    <hr width="1100">
-    <!-- 2.3 Summary -->
-    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-      <div class="text-center text-lg-left">
-        <p class="text-black px-5"> &emsp; TODO... </p>
-      </div>
-    </div>
   </section>
 
 
@@ -159,34 +162,34 @@
   <section id="trade" class="trade-section bg-white">
     <div class="container">
 
-      <!-- Featured Project Row -->
+      <!-- 3.1 Continents Wood Production -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
-        </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+            <h4>TODO...</h4>
+            <p class="text-black mb-0">TODO...</p>
+          </div>
+        </div>
+        <iframe src = "img/plots/continents production.html" height="600" width="1000" frameborder="0" scrolling="no"></iframe>
+      </div>
+
+      <br>
+      <!-- 3.2 Top Roundwood Producers -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <iframe src="img/plots/roundwood producers.html" height="600" width="1000" frameborder="0" scrolling="no"></iframe>
+        <div class="col-xl-4 col-lg-5 order-lg-first">
+          <div class="featured-text text-center text-lg-left">
+            <h4>TODO...</h4>
+            <p class="text-black mb-0">TODO...</p>
           </div>
         </div>
       </div>
 
-      <!-- Project One Row -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
-        </div>
-        <div class="col-lg-6">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
-              </div>
-            </div>
-          </div>
+      <hr>
+      <!-- 3.3 Summary -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="text-center text-lg-left">
+          <p class="text-black mb-0"> TODO... </p>
         </div>
       </div>
 
