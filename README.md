@@ -118,3 +118,9 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 ### Week 13 (20.1.)
 
 - Poster Presentation
+
+## Contribution
+* [Chun-Hung Yeh](https://github.com/yehchunhung):
+* [Hiroki Hayakawa](https://github.com/hirokihayakawa07):
+* [Michele Vidulis](https://github.com/MicheleVidulis):
+* [Martin Kostelanský](https://github.com/kostelansky17):
