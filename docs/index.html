@@ -76,7 +76,7 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 class="text-white text-center mb-4">Abstract</h2>
-            <div style="text-align:center">
+            <div class="text-justify">
               <iframe src="quote/quote.html" height="200" width="750" frameborder="0" scrolling="no"></iframe>
             </div>
           <p class="text-white-50 text-justify">
@@ -91,7 +91,7 @@
   <div class = "container">
     <div class="text-center text-lg-left">
       <br><br><br><br>
-      <h4> <i class="fas fa-exclamation-circle"></i>&nbsp;Disclaimer: All of our plots and analysis are based on <a href="https://www.kaggle.com/unitednations/global-food-agriculture-statistics#fao_data_forest_data.csv"><strong>Global Food & Agriculture Statistics</strong></a>.</h4>
+      <h4> <i class="fas fa-exclamation-circle"></i>&nbsp;Statement: All of our plots and analysis are based on <a href="https://www.kaggle.com/unitednations/global-food-agriculture-statistics#fao_data_forest_data.csv"><strong>Global Food & Agriculture Statistics</strong></a>.</h4>
     </div>
   </div>
 
@@ -102,10 +102,10 @@
       <!-- 1. World Forest Trend and Distribution -->
       <!-- 1.1 World Forest Trend -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src = "img/plots/world trend.html" height="650" width="730" frameborder="0" scrolling="no"></iframe>
+        <iframe src = "img/plots/trend/world trend.html" height="650" width="730" frameborder="0" scrolling="no"></iframe>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>What happened to the world's forests since 1990?</h4>
+            <h4>What happened to the world's forests since 1995?</h4>
             <p class="text-black mb-0">From the trend plot on the left, we noticed that forest areas in the world has been continuously declining, dropping almost 1 percent compared with the area in 1995. According to <a href="http://www.fao.org/3/a-i4793e.pdf"><strong>FAO</strong></a>, we have lost equivalently 129 million hectares of forests around the globe, approximately the size of South Africa.</p>
           </div>
         </div>
@@ -113,7 +113,7 @@
 
         <!-- 1.2 World Forest Distribution -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src="img/plots/world map.html" height="650" width="730" frameborder="0" scrolling="no"> </iframe>
+        <iframe src="img/plots/trend/world map.html" height="650" width="730" frameborder="0" scrolling="no"> </iframe>
         <div class="col-xl-4 col-lg-5 order-lg-first">
           <div class="featured-text text-center text-lg-left">
             <h4> How are forests distributed throughout the world? </h4>
@@ -126,7 +126,7 @@
       <!-- 2. Continents and Countries Forest Areas -->
       <!-- 2.1 Continent Forest Areas -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src = "img/plots/continents.html" height="650" width="740" frameborder="0" scrolling="no"></iframe>
+        <iframe src = "img/plots/trend/continents.html" height="650" width="740" frameborder="0" scrolling="no"></iframe>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
             <h4>How about forests in each continent?</h4>
@@ -137,10 +137,10 @@
 
       <!-- 2.2 Country Forest Areas -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src="img/plots/countries.html" height="600" width="1000" frameborder="0" scrolling="no"></iframe>
+        <iframe src="img/plots/trend/countries.html" height="600" width="1000" frameborder="0" scrolling="no"></iframe>
         <div class="col-xl-4 col-lg-5 order-lg-first">
           <div class="featured-text text-center text-lg-left">
-            <h4>Let's check from each country!</h4>
+            <h4>Let's check the status in each country!</h4>
             <p class="text-black mb-0">To give more detailed views, we display the trend plot of forest areas in each nation for everyone to check!</p>
           </div>
         </div>
@@ -164,19 +164,40 @@
 
       <!-- 3.1 Continents Wood Production -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <iframe src = "img/plots/trade/continent production.html" height="600" width="740" frameborder="0" scrolling="no"></iframe>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>TODO...</h4>
+            <p class="text-black mb-0">Wood products are the integral part of our daily lives. We have used them from beginning of our kind, but the demand has never been this big. The production of primary wood products has increased 20 percents in the past 20 years. And this trend doesn't seem to stop. The forests contain share of Co2 on our planet and with every sawn tree this number decreases. The leading continent in production primary forest products have been in Asia followed by Northern America nad Europe, but the impact of wood production on defrestation is clearest in South America and Africa. In these two continents has the production increased by almost 30 percent, but the area of forested areas decreased by 7, respectively 6 percent.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3.2 Top Roundwood Producers -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <iframe src="img/plots/trade/roundwood producers.html" height="600" width="740" frameborder="0" scrolling="no"></iframe>
+        <div class="col-xl-4 col-lg-5 order-lg-first">
+          <div class="featured-text text-center text-lg-left">
+            <h4>TODO...</h4>
+            <p class="text-black mb-0">TODO...</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3.3 Production to deforestation -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
             <h4>TODO...</h4>
             <p class="text-black mb-0">TODO...</p>
           </div>
         </div>
-        <iframe src = "img/plots/continents production.html" height="600" width="1000" frameborder="0" scrolling="no"></iframe>
+        <iframe src = "img/plots/trade/production deforestation.html" height="600" width="740" frameborder="0" scrolling="no"></iframe>
       </div>
 
-      <br>
-      <!-- 3.2 Top Roundwood Producers -->
+      <!-- 3.4 GDP Export -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src="img/plots/roundwood producers.html" height="600" width="1000" frameborder="0" scrolling="no"></iframe>
+        <iframe src="img/plots/trade/gdp export.html" height="700" width="1000" frameborder="0" scrolling="no"></iframe>
         <div class="col-xl-4 col-lg-5 order-lg-first">
           <div class="featured-text text-center text-lg-left">
             <h4>TODO...</h4>
@@ -193,24 +214,6 @@
         </div>
       </div>
 
-      <!-- Project Two Row -->
-      <div class="row justify-content-center no-gutters">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
-        </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
   </section>
 
@@ -220,13 +223,13 @@
 
       <!-- 4.1 Barplot differential land use (forest vs agriculture) in continents -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src = "img/agriculture/land_forest_vs_agriculture.html" height="650" width="730" frameborder="0" scrolling="no"></iframe>
+        <iframe src = "img/plots/agriculture/land_forest_vs_agriculture.html" height="650" width="730" frameborder="0" scrolling="no"></iframe>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
             <h4>Is the decrease in forest land connected to agricultural land expansion?</h4>
             <p class="text-black mb-0">
-              Yes. But not always. In general it is hard to exstablish sure causality relationships in such a complex context,
-              but what can be said without mistaking is that, at country level, there are postive and negative examples and that
+              Yes. But not always. In general it's hard to establish precise causality relation in such complex context,
+              but what can be said is that, at country level, there are postive and negative examples and that
               a rough aggregated perspective at the level of continents is sufficient to get an idea of the phenomenon at global scale.
               A twenty year differential value (1995-2015) clearly shows how South America and Africa heavily decreased forest land in favour of wider croplands,
               while in Europe an North America the opposite happened (even if at smaller scale).
@@ -237,116 +240,104 @@
         </div>
       </div>
 
-    <!-- 4.2.1 Some countries cultivate specific products (Brazil) -->
-    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-      <iframe src = "img/agriculture/land_satellite_data_Brazil.html" height="400" width="730" frameborder="0" scrolling="no"></iframe>
-      <div class="col-xl-4 col-lg-5 order-lg-first">
-        <div class="featured-text text-center text-lg-left">
-          <h4>Brazil: sugar cane and increasing deforestation</h4>
-          <p class="text-black mb-0">
-            With 750 million of tonnes produced in 2015, Brazil is the biggest producer in the world of sugarcane:
-            India, the second overall producer, harvested only half of this amount in the same year.
-            The fact that herbaceous crops lands are expanding in Brazil is strictly linked to the cultivation of sugarcane and,
-            despite several warnings of the scientific community, brazilian government recently
-            <a href="https://www.reuters.com/article/us-brazil-environment-agriculture/brazil-cancels-decree-barring-sugarcane-cultivation-in-the-amazon-idUSKBN1XG311">
-              <strong>removed the ban on cultivation in Amazon's region</strong>
-            </a>
-            , Reuters reports.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- 4.2.2 Some countries cultivate specific products (Indonesia) -->
-    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-      <iframe src = "img/agriculture/land_satellite_data_Indonesia.html" height="400" width="730" frameborder="0" scrolling="no"></iframe>
-      <div class="col-xl-4 col-lg-5">
-        <div class="featured-text text-center text-lg-left">
-          <h4>Indonesia: palm oil and conservation efforts</h4>
-          <p class="text-black mb-0">
-            Indonesia is the world's largest producer of a well known woody crop: palm fruit.
-            It is claimed that this type of cultivation has several direct and indirect negative effects on the environment.
-            <a href="https://edition.cnn.com/interactive/2019/11/asia/borneo-climate-bomb-intl-hnk/">
-              <strong>Farmers often light fires </strong>
-            </a>
-            in order to create new arable land, with the double drawback of destroing tree-covered areas and generating pollutant emissions.
-            Since 2011 the local government made big efforts to
-            <a href="https://www.reuters.com/article/us-indonesia-environment-forest-idUSKCN1UY14P">
-              <strong>preserve primary forest and peatland </strong>
-            </a>
-            from the uncontrolled expansion of agricultural lands linked to palm oil production.
-            Since then, forest destruction has slowed down but does not seem to stop.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- 4.2.3 Some countries cultivate specific products (Chile) -->
-    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-      <iframe src = "img/agriculture/land_satellite_data_Chile.html" height="400" width="730" frameborder="0" scrolling="no"></iframe>
-      <div class="col-xl-4 col-lg-5 order-lg-first">
-        <div class="featured-text text-center text-lg-left">
-          <h4>Chile: a sustainable alternative?</h4>
-          <p class="text-black mb-0">
-            Chile is an atypical example in the south american context.
-            Given that agricultural production is based on fruit, with particular developement of grapes farming in the last decades, woody crops lands are nowadys expanding.
-            What is interesting is that this fact does not prevent the total amount of forested areas to increase too.
-            This can be due to a
-            <a href="https://news.mongabay.com/2016/02/market-based-conservation-programs-slow-deforestation-in-chile-study-finds">
-              <strong>particular attention to conservation programs </strong>
-            </a>
-            and
-            <a href="https://www.reforestemos.cl/en/el-proyecto/">
-              <strong>reforestation efforts</strong>
-            </a>
-            .
-
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- 4.3 Agricultural style: clustering and graph on map -->
-    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-      <iframe src = "img/agriculture/agricultural_similarity.html" height="650" width="1200" frameborder="0" scrolling="no"></iframe>
-      <div class="col-xl-12 col-lg-5">
-        <div class="featured-text text-center text-lg-left">
-          <h4>Do agricultural production influence forest policies?</h4>
-          <p class="text-black mb-0">
-            Land use, with particular attention to the type of products cultivated on agriculture land,
-            can be an interesting perspective from which to look at the problem at hand.
-            Analysing the 20 countries that had the biggest differential in forest land between 1990 and 2015
-            (10 positive, reforesting; 10 negative, diminishing forest land) it can be observed how the agricultural style
-            of a country is often linked to the effort of expanding tree covered areas.
-            China, which has the highest positive impact on reforestation all over the world,
-            shares many agrarian products with european nations that are also expanding forested areas;
-            similar agricultural organization and ecological policy can be found in Chile,
-            despite being it geographically closer to Argentina, Bolivia, Brazil and Colombia.
-            Intresting facts are that Zimbabwe has farming style particularly similar to the last three aforementioned countries,
-            while among african nations (all characterized by a decrease in forest land in the analysed time span)
-            only a quite weak bound can be seen between Nigeria and DRC.
-            At last, in the Middle East area interesting facts happen:
-            Thailand has, from the farming perspective, a profile much closer to deforesting countries,
-            not sharing many products with first mentioned group, the european one, even if it has a positive forest land differential;
-            Myanmar and Vietnam are very close from the agricultural point of view but far for what concerns foresting policies;
-            Indonesia has a unique farming style.
-          </p>
-        </div>
-      </div>
-    </div>
-
-      <!-- Featured Project Row -->
+      <!-- 4.2.1 Some countries cultivate specific products (Brazil) -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
-        </div>
-        <div class="col-xl-4 col-lg-5">
+        <iframe src = "img/plots/agriculture/land_satellite_data_Brazil.html" height="400" width="730" frameborder="0" scrolling="no"></iframe>
+        <div class="col-xl-4 col-lg-5 order-lg-first">
           <div class="featured-text text-center text-lg-left">
-            <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+            <h4>Brazil: sugar cane and increasing deforestation</h4>
+            <p class="text-black mb-0">
+              With 750 million of tonnes produced in 2015, Brazil is the biggest producer in the world of sugarcane:
+              India, the second overall producer, harvested only half of this amount in the same year.
+              The fact that herbaceous crops lands are expanding in Brazil is strictly linked to the cultivation of sugarcane and,
+              despite several warnings of the scientific community, brazilian government recently
+              <a href="https://www.reuters.com/article/us-brazil-environment-agriculture/brazil-cancels-decree-barring-sugarcane-cultivation-in-the-amazon-idUSKBN1XG311">
+                <strong>removed the ban on cultivation in Amazon's region</strong>
+              </a>
+              , Reuters reports.
+            </p>
           </div>
         </div>
       </div>
+
+      <!-- 4.2.2 Some countries cultivate specific products (Indonesia) -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <iframe src = "img/plots/agriculture/land_satellite_data_Indonesia.html" height="400" width="730" frameborder="0" scrolling="no"></iframe>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Indonesia: palm oil and conservation efforts</h4>
+            <p class="text-black mb-0">
+              Indonesia is the world's largest producer of a well known woody crop: palm fruit.
+              It is claimed that this type of cultivation has several direct and indirect negative effects on the environment.
+              <a href="https://edition.cnn.com/interactive/2019/11/asia/borneo-climate-bomb-intl-hnk/">
+                <strong>Farmers often light fires </strong>
+              </a>
+              in order to create new arable land, with the double drawback of destroing tree-covered areas and generating pollutant emissions.
+              Since 2011 the local government made big efforts to
+              <a href="https://www.reuters.com/article/us-indonesia-environment-forest-idUSKCN1UY14P">
+                <strong>preserve primary forest and peatland </strong>
+              </a>
+              from the uncontrolled expansion of agricultural lands linked to palm oil production.
+              Since then, forest destruction has slowed down but does not seem to stop.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4.2.3 Some countries cultivate specific products (Chile) -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <iframe src = "img/plots/agriculture/land_satellite_data_Chile.html" height="400" width="730" frameborder="0" scrolling="no"></iframe>
+        <div class="col-xl-4 col-lg-5 order-lg-first">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Chile: a sustainable alternative?</h4>
+            <p class="text-black mb-0">
+              Chile is an atypical example in the south american context.
+              Given that agricultural production is based on fruit, with particular developement of grapes farming in the last decades, woody crops lands are nowadys expanding.
+              What is interesting is that this fact does not prevent the total amount of forested areas to increase too.
+              This can be due to a
+              <a href="https://news.mongabay.com/2016/02/market-based-conservation-programs-slow-deforestation-in-chile-study-finds">
+                <strong>particular attention to conservation programs </strong>
+              </a>
+              and
+              <a href="https://www.reforestemos.cl/en/el-proyecto/">
+                <strong>reforestation efforts</strong>
+              </a>
+              .
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4.3 Agricultural style: clustering and graph on map -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <iframe src = "img/plots/agriculture/agricultural_similarity.html" height="650" width="1200" frameborder="0" scrolling="no"></iframe>
+        <div class="col-xl-12 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Do agricultural production influence forest policies?</h4>
+            <p class="text-black mb-0">
+              Land use, with particular attention to the type of products cultivated on agriculture land,
+              can be an interesting perspective from which to look at the problem at hand.
+              Analysing the 20 countries that had the biggest differential in forest land between 1990 and 2015
+              (10 positive, reforesting; 10 negative, diminishing forest land) it can be observed how the agricultural style
+              of a country is often linked to the effort of expanding tree covered areas.
+              China, which has the highest positive impact on reforestation all over the world,
+              shares many agrarian products with european nations that are also expanding forested areas;
+              similar agricultural organization and ecological policy can be found in Chile,
+              despite being it geographically closer to Argentina, Bolivia, Brazil and Colombia.
+              Intresting facts are that Zimbabwe has farming style particularly similar to the last three aforementioned countries,
+              while among african nations (all characterized by a decrease in forest land in the analysed time span)
+              only a quite weak bound can be seen between Nigeria and DRC.
+              At last, in the Middle East area interesting facts happen:
+              Thailand has, from the farming perspective, a profile much closer to deforesting countries,
+              not sharing many products with first mentioned group, the european one, even if it has a positive forest land differential;
+              Myanmar and Vietnam are very close from the agricultural point of view but far for what concerns foresting policies;
+              Indonesia has a unique farming style.
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
