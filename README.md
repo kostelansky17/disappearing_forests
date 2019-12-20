@@ -123,4 +123,4 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 * [Chun-Hung Yeh](https://github.com/yehchunhung):
 * [Hiroki Hayakawa](https://github.com/hirokihayakawa07):
 * [Michele Vidulis](https://github.com/MicheleVidulis):
-* [Martin Kostelanský](https://github.com/kostelansky17):
+* [Martin Kostelanský](https://github.com/kostelansky17): Setting up GitHub page, 'Trade' part, graphics
