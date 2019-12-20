@@ -122,5 +122,5 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 ## Contribution
 * [Chun-Hung Yeh](https://github.com/yehchunhung): Analyzing and finding the trend of desforestation in 'Trend' section, organizing the webpage of our data story, cleaning and updating our jupyter notebook, preparing the design of our poster.
 * [Hiroki Hayakawa](https://github.com/hirokihayakawa07): Analyzing data, writing up description and making plots in 'Reforestation' and 'Trend' section.
-* [Michele Vidulis](https://github.com/MicheleVidulis): Problem formulation, layout and txtual descriptions in the data story, handled 'Agriculture' section.
+* [Michele Vidulis](https://github.com/MicheleVidulis): Problem formulation, layout and textual descriptions in the data story, handled 'Agriculture' section.
 * [Martin Kostelanský](https://github.com/kostelansky17): Problem formulation, setting up GitHub page, analyzing and making plots in 'Trade' section.
