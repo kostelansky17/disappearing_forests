@@ -22,7 +22,6 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
 
-
 </head>
 
 <body id="page-top">
@@ -76,10 +75,20 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Abstract</h2>
+          <h2 class="text-white text-center mb-4">Abstract</h2>
+            <div class="text-justify">
+              <iframe src="quote/quote.html" height="200" width="750" frameborder="0" scrolling="no"></iframe>
+            </div>
           <p class="text-white-50 text-justify">
-            Forests make life possible on earth. They provide vital services like CO2 absorption, watershed protection and prevention of soil erosion as well as being habitat for wildlife and guaranteeing livelihood for human. <span class="focus"> However, the forest covering percentage nowadays is sharply decreasing. </span> According to Nature, the global number of trees has fallen by 46% since the start of human civilization. Even worse, this summer thousands of fires have burned across most of the regions of Amazon rainforest, severely destroying the important carbon storehouse left on Earth. In addition, almost at the same time, huge wildfires broke out in Russia’s Siberian Province, bringing toxic thick smoke to the atmosphere. From these cases, deforestation has become one of the serious issues we human beings encounter. <br>
-            In this story, our aim is to analyze deforestation based on our given dataset, trying to link it to the food production (grazing of livestock and farming), commodities manufacture by means of lumber and minerals extracted from the deforested areas. Moreover, we will investigate the deforestation rate during the last decade in different geographical regions, finding the trend in each country. Lastly, by our thorough analysis, we will try to put forth possible methods for alleviating deforestation.
+            <strong><font color="#C9C9C9">Forests make life possible on earth</font></strong>. They provide vital services like CO2 absorption,
+             watershed protection and prevention of soil erosion as well as being habitat for wildlife
+             and guaranteeing livelihood for human. However, the <strong><font color="#C9C9C9">forest covering nowadays
+             is sharply decreasing</font></strong>. How serious is the problem? Which are the main causes of deforestation?
+             Are logging and farming activities connected to the reduction of tree covered areas all around the world?
+             Are there virtuous examples around from which we can take inspiration? Are reforestation programs actually working?
+
+            <!-- Forests provide many important goods and services — for example, they filter water, regulate climate, provide habitat for animal species, ..., etc. <strong class="text-white"> However, the forest coverage nowadays is sharply decreasing.</strong> Even worse, we could often read the news about deforestation including logging, wildfire and other natural disasters, rapidly shrinking our forest areas.<br>
+            In this story, our aim is to analyze deforestation based on our given dataset, trying to link it to the food production (grazing of livestock and farming), commodities manufacture by means of lumber and minerals extracted from the deforested areas. Moreover, we will investigate the deforestation rate during the last decade in different geographical regions, finding the trend in each country. Lastly, by our thorough analysis, we will try to put forth possible methods for alleviating deforestation. -->
           </p>
         </div>
       </div>
@@ -89,68 +98,77 @@
   <!-- Trend Section -->
   <section id="trend" class="trend-section bg-white">
     <div class="container">
-
       <!-- 1. World Forest Trend and Distribution -->
+        <h4><font size="16"><strong>Trend</strong></font></h4>
+        <hr>
+        <p>TODO...</p>
       <!-- 1.1 World Forest Trend -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src = "img/world trend.html" height="650" width="730" frameborder="0" scrolling="no"></iframe>
+        <iframe src = "img/plots/trend/world trend.html" height="650" width="730" frameborder="0" scrolling="no"></iframe>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>What happened to the world's forests since 1990?</h4>
-            <p class="text-black mb-0">TODO...</p>
+            <h4>What happened to the world's forests since 1995?</h4>
+            <p class="text-black mb-0">From the trend plot on the left, forest areas in the world has been continuously declining, dropping almost 1 percent compared with the area in 1995. According to <a href="http://www.fao.org/3/a-i4793e.pdf"><strong>FAO</strong></a>, we have lost equivalently 129 million hectares of forests around the globe, approximately the size of South Africa.</p>
           </div>
         </div>
       </div>
 
         <!-- 1.2 World Forest Distribution -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src="img/world map.html" height="650" width="730" frameborder="0" scrolling="no"> </iframe>
+        <iframe src="img/plots/trend/world map.html" height="650" width="730" frameborder="0" scrolling="no"> </iframe>
         <div class="col-xl-4 col-lg-5 order-lg-first">
           <div class="featured-text text-center text-lg-left">
-            <h4> How are forests distributed globally? </h4>
-            <p class="text-black mb-0">TODO...</p>
+            <h4> How are forests distributed throughout the world? </h4>
+            <p class="text-black mb-0">Here we present the percentage of forest areas in each country from 1995 to 2015. From the map, there is obvious reduction of the forest share in those developing countries in South America, Southeast Asia and Africa (Brazil, Indonesia and Zimbabwe for example).</p>
           </div>
         </div>
       </div>
 
-      <hr>
-      <!-- 1.3 Summary -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="text-center text-lg-left">
-          <p class="text-black mb-0"> TODO... </p>
-        </div>
-      </div>
 
       <!-- 2. Continents and Countries Forest Areas -->
       <!-- 2.1 Continent Forest Areas -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src = "img/continents.html" height="650" width="740" frameborder="0" scrolling="no"></iframe>
+        <iframe src = "img/plots/trend/continents.html" height="650" width="740" frameborder="0" scrolling="no"></iframe>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>How about forests in continents?</h4>
-            <p class="text-black mb-0">TODO...</p>
+            <h4>How about forests in each continent?</h4>
+            <p class="text-black mb-0">Overall, South America and Africa have been steadily decreasing their forest areas over the years. On the contrary, Asia, Europe and North America have been slowly increasing their forests from 1995.</p>
           </div>
         </div>
       </div>
 
       <!-- 2.2 Country Forest Areas -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src="img/countries.html" height="600" width="1600" frameborder="0" scrolling="no"></iframe>
+        <iframe src="img/plots/trend/countries.html" height="600" width="740" frameborder="0" scrolling="no"></iframe>
         <div class="col-xl-4 col-lg-5 order-lg-first">
           <div class="featured-text text-center text-lg-left">
-            <h4>Let's check from each country!</h4>
-            <p class="text-black-50 mb-0">TODO...</p>
+            <h4>Let's check the status in each country!</h4>
+            <p class="text-black mb-0">To give more detailed views, we display the trend plot of forest areas in each nation for everyone to check!</p>
           </div>
         </div>
       </div>
-    </div>
+      <!-- 2.3 Top Deforestated / Reforestated Countries -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-12 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Top Deforestated / Reforestated Countries</h4>
+            <p class="text-black mb-0">
+              Lefthand side of following figur shows decrease of forest areas for this two decades in top 5
+              the most deforestated countries and summation of other deforestated countries' decrease.
+              By contrast, the righthand side indicates the increase of the wooden areas for the same period in top 5
+              the most reforestated nations and summation of other reforestated countries' increase.
+              <b>The nations who have the same rank records similar value of the area shirinkage or expansion.
+              However, due to the 6th or lower rank countries' value of area difference,
+              on the global scale, the number of forest area reduction in this two decades over its expansion by a hundred million hectares.</b>
 
-    <hr width="1100">
-    <!-- 2.3 Summary -->
-    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-      <div class="text-center text-lg-left">
-        <p class="text-black px-5"> &emsp; TODO... </p>
+            </p>
+          </div>
+        </div>
+        <iframe src="img/plots/trend/top_def_countries.html" height="800" width="500" frameborder="0" scrolling="no"></iframe>
+        <iframe src="img/plots/trend/top_ref_countries.html" height="800" width="500" frameborder="0" scrolling="no"></iframe>
       </div>
+
+
     </div>
   </section>
 
@@ -158,56 +176,52 @@
   <!-- Trade Section -->
   <section id="trade" class="trade-section bg-white">
     <div class="container">
-
-      <!-- Featured Project Row -->
+      <h4><font size="16"><strong>Trade</strong></font></h4>
+      <hr>
+      <p>TODO...</p>
+      <!-- 3.1 Continents Wood Production -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
-        </div>
+        <iframe src = "img/plots/trade/continent production.html" height="600" width="740" frameborder="0" scrolling="no"></iframe>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+            <h4>TODO...</h4>
+            <p class="text-black mb-0">Wood products are the integral part of our daily lives. We have used them from beginning of our kind, but the demand has never been this big. The production of primary wood products has increased 20 percents in the past 20 years. And this trend doesn't seem to stop. The forests contain share of Co2 on our planet and with every sawn tree this number decreases. The leading continent in production primary forest products have been in Asia followed by Northern America nad Europe, but the impact of wood production on defrestation is clearest in South America and Africa. In these two continents has the production increased by almost 30 percent, but the area of forested areas decreased by 7, respectively 6 percent.</p>
           </div>
         </div>
       </div>
 
-      <!-- Project One Row -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
-        </div>
-        <div class="col-lg-6">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
-              </div>
-            </div>
+      <!-- 3.2 Top Roundwood Producers -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <iframe src="img/plots/trade/roundwood producers.html" height="600" width="740" frameborder="0" scrolling="no"></iframe>
+        <div class="col-xl-4 col-lg-5 order-lg-first">
+          <div class="featured-text text-center text-lg-left">
+            <h4>TODO...</h4>
+            <p class="text-black mb-0">Between the top 30 producers of round in the world, we can find countires from all continets. The first seven countires is responsible for more than a half of the production. The forest in these countires combined cointains almost sixty percents of all world forests. But how does the production of round wood influences the deforestation?</p>
           </div>
         </div>
       </div>
 
-      <!-- Project Two Row -->
-      <div class="row justify-content-center no-gutters">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+      <!-- 3.3 Production to deforestation -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>TODO...</h4>
+            <p class="text-black mb-0">On the plot, we can see that the wood production doe's not always correlate with decrease of the forests in the countires. All of the producers from Nort America and Europe, except Canada and Sweeden, have been able to extend the share of the woods in their land. The negative impact of lumber trade is clearly visible in countires from Africa and Asia.</p>
+          </div>
         </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
-              </div>
-            </div>
+        <iframe src = "img/plots/trade/production deforestation.html" height="600" width="740" frameborder="0" scrolling="no"></iframe>
+      </div>
+
+      <!-- 3.4 GDP Export -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <iframe src="img/plots/trade/gdp export.html" height="700" width="1000" frameborder="0" scrolling="no"></iframe>
+        <div class="col-xl-4 col-lg-5 order-lg-first">
+          <div class="featured-text text-center text-lg-left">
+            <h4>TODO...</h4>
+            <p class="text-black mb-0">When we look at the top net expotres of forest products in the world, we can see that some of these countires have a big share of planted forests in their land. These countires tends to have highier GDP and lower density of population, what allows them to increase the wood areas by planting new trees. This observtion it's not true for every country, we can see that the artificial planting of forest doesn't take a place in countries as Norway or Canada, even though their high GDP or net export. On the other hand, there are the countires with low GDP from Asia or Africa in which is the share of planted forrests. Many of these countires have high density of population, what in combination with the wealth of the country results in the fact that they don't have resources to regenerate forests destroyed by the wood production.</p>
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -217,7 +231,7 @@
 
       <!-- 4.1 Barplot differential land use (forest vs agriculture) in continents -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <iframe src = "img/agriculture/land_forest_vs_agriculture.html" height="650" width="730" frameborder="0" scrolling="no"></iframe>
+        <iframe src = "img/plots/agriculture/land_forest_vs_agriculture.html" height="650" width="730" frameborder="0" scrolling="no"></iframe>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
             <h4>Is the decrease in forest land connected to agricultural land expansion?</h4>
@@ -240,7 +254,7 @@
     <!-- Row one (Brazil) -->
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-lg-7">
-        <iframe src = "img/agriculture/land_satellite_data_Brazil.html" height="550" width="690" frameborder="0" scrolling="no"></iframe>
+        <iframe src = "img/plots/agriculture/land_satellite_data_Brazil.html" height="550" width="690" frameborder="0" scrolling="no"></iframe>
       </div>
       <div class="col-lg-5">
         <div class="bg-black text-center h-100 project">
@@ -267,7 +281,7 @@
     <!-- Row two (Indonesia) -->
     <div class="row justify-content-center no-gutters">
       <div class="col-lg-7">
-        <iframe src = "img/agriculture/land_satellite_data_Indonesia.html" height="550" width="690" frameborder="0" scrolling="no"></iframe>
+        <iframe src = "img/plots/agriculture/land_satellite_data_Indonesia.html" height="550" width="690" frameborder="0" scrolling="no"></iframe>
       </div>
       <div class="col-lg-5 order-lg-first">
         <div class="bg-black text-center h-100 project">
@@ -298,7 +312,7 @@
     <!-- Row three (Chile) -->
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-lg-7">
-        <iframe src = "img/agriculture/land_satellite_data_Chile.html" height="550" width="690" frameborder="0" scrolling="no"></iframe>
+        <iframe src = "img/plots/agriculture/land_satellite_data_Chile.html" height="550" width="690" frameborder="0" scrolling="no"></iframe>
       </div>
       <div class="col-lg-5">
         <div class="bg-black text-center h-100 project">
@@ -328,23 +342,21 @@
       </div>
     </div>
 
+    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+    </div>
+    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+    </div>
+
     <!-- 4.3 Agricultural style: clustering and graph on map -->
     <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-      <div class="column">
-        <iframe src = "img/agriculture/agricultural_similarity.html" height="550" width="960" frameborder="0" scrolling="no"></iframe>
-      </div>
-      <div class="column">
-        <img src="img/agriculture/legend_for_graph.png" height="500" width="140">
-      </div>
       <div class="col-xl-12 col-lg-5">
         <div class="featured-text text-center text-lg-left">
           <h4>Do agricultural production influence forest policies?</h4>
           <p class="text-black mb-0">
-            Land use, with particular attention to the type of products cultivated on agriculture land,
-            can be an interesting perspective from which to look at the problem at hand.
-            Analysing the 20 countries that had the biggest differential in forest land between 1990 and 2015
-            (10 deforesting and 10 increasing their forest land) it can be observed how <strong>the agricultural style
-            of a country is often linked to the effort of preserving and expanding tree covered areas</strong>.
+            <strong>The agricultural style of a country is often linked to the effort
+              of preserving and expanding tree covered areas</strong>.
+            Indeed, analysing the 20 countries that had the biggest differential in forest land between 1990 and 2015
+            (10 deforesting and 10 increasing their forest land) interesting similarities can be observed.
             <font color="#1f77b4">China</font>, which has the highest positive impact on reforestation all over the world,
             shares many agrarian products with european nations
             (<font color="#1f77b4">France</font>, <font color="#1f77b4">Spain</font>, <font color="#1f77b4">Italy</font>) that are also expanding forested areas;
@@ -354,46 +366,138 @@
             Intresting facts are that <font color="#ff7f0e">Zimbabwe</font> has farming style particularly similar to the last three aforementioned countries.
             African noations in general does not cultivate similar different products.
             In the Middle East area <font color="#1f77b4">Thailand</font> has, from the farming perspective,
-            a profile much closer to deforesting countries, even if it has a positive forest land differential;
+            a profile much closer to deforesting countries, even if it has a positive forest land differential:
+            in this country sugarcane accounts for one third of the total agricultural production, similarly to what happens in South America.
             <font color="#ff7f0e">Myanmar</font> and <font color="#1f77b4">Vietnam</font>
             are very close from the agricultural point of view but far for what concerns foresting policies;
             <font color="#ff7f0e">Indonesia</font> has a unique farming style.
           </p>
         </div>
       </div>
-    </div>
-
-      <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
-        </div>
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-center text-lg-left">
-            <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-          </div>
-        </div>
+      <div class="column">
+        <iframe src = "img/plots/agriculture/agricultural_similarity.html" height="550" width="960" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <div class="column">
+        <img src="img/plots/agriculture/legend_for_graph.png" height="500" width="140">
       </div>
     </div>
-  </section>
 
+  </section>
   <!-- Reforestation Section -->
   <section id="refor" class="agri-section bg-white">
     <div class="container">
+      <h4><font size="16"><strong>Reforestation</strong></font></h4>
+      <hr>
 
-      <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+        <div class="col-xl-12 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Top Reforestated Countries</h4>
+            <p class="text-black mb-0">
+              Although the area of forest in the world shows decreasing trend,
+              there certainly exists nations which have succeeded in
+              expanding areas of forests in the land.
+              The barchart indicates increase or decrase in forest area for each category
+              in top 5 the most reforestationg countries for this two decades (1995-2015).
+              The definition of the categories follows
+              <a href="http://www.fao.org/3/ap862e/ap862e00.pdf">
+                <strong>FAO's paper, FRA 2015 Terms and Definition </strong>
+              </a>
+              .
+              Primary forests are forests that exists in their original states and no human activities has influence on.
+              Planted forests are trees established by deliberate seeding as its name suggests.
+              Other forests means the forests that are not categoried as either primary of planted.
+              For example, naturally regenerated forests over the areas that
+              human activities such as logging and agriculture were taken place in the past
+              are in this category.
+              <b>We can observe from the chart that the most reforestating countries have made
+              efforts on forest planting, however main factors for forest expansion varies among countries.</b>
+              <b>For US and Russia, natural regenerations of primary forests contribute to
+              gain additional forests areas in the land to some or large extent.</b>
+              In the US, ten percent of total forest land is preserved as reserved forest
+              and no timber harvesting is allowed in the land by law as written in
+              <a href="https://www.fia.fs.fed.us/library/brochures/docs/2012/ForestFacts_1952-2012_English.pdf">
+                <strong>the report of USDA, U.S. Forest Resource Facts and Historical Trends </strong>
+              </a>
+              . The figures in the report shows that reserved forests has expanted its ares
+              by twenty two million acres (= nine million hectares) between 1997 and 2012.
+              The national policy for forest reservation has been proucing good result for this decades in the view of reforestation.
+              <a href="https://earthobservatory.nasa.gov/images/86221/changing-forest-cover-since-the-soviet-era">
+                <strong>NASA</strong>
+              </a>
+               has been investigating forest cover area in Russia since its Soviet Era,
+              and it also revealed the forest expansion in the land.
+              Russia has been suffered from massive wildfire almost every year.
+              Siberian wildfire in 2019 was fresh in our memory.
+              The fact that Russia expands its forest land nevertheless the periodical huge lost of forests must be eye-opener for most people.
+              <b>Looking at China and India, it is no doubt that tree planting is the major cause of reforestation.</b>
+              Surprising thing is the fact that nevertheless both countries are facing with significant population grouwth
+              and coping with needs for additional housings, infrastructure, food, and products,
+              they have achived success in reforestation.
+              In the following part of this section, we look into the effors of these two countries for forest protection and reforestation.
+
+            </p>
+          </div>
         </div>
+        <iframe src = "img/plots/reforestation/forest_expansion.html" height="650" width="1200" frameborder="0" scrolling="no"></iframe>
+      </div>
+
+      <!-- 5.1.1 China_mainland -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <iframe src = "img/plots/reforestation/China_mainland.html" height="800" width="650" frameborder="0" scrolling="no"></iframe>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">TODO...</p>
+            <h4>Reforestaion in China</h4>
+            <p class="text-black mb-0">
+              China is the biggest countributer for reforestation in the world.
+              Expansion of wooden areas in China accouts for more than forty percent of
+              total reforested areas in the world in this two decades.
+              <b>As we can see in the figure, China maintain its primary forests and countinuously expands both planted and other forest type areas.</b>
+              Looking at land use, regenerated forest areas replace the areas categorized as other use including barren lands such as desert.
+              It can be found out that China gains addional forest areas without loosing areas for agriculture,
+              which are necessary for feeding the nation.
+              <b>The China's continuous effort for reforestation called
+              <a href="http://www.fao.org/3/AD115E/AD115E00.htm">
+                <strong>'The Three North Shelter Forest Program'</strong>
+              </a>
+               began in 1978 and its purpose is to prevent expansion of the Gobi Desert by tree planting.
+               In addition, the nation launched
+               <a href="http://www.fao.org/3/ae537e/ae537e0j.htm">
+                 <strong>'Grain for Green program'</strong>
+               </a>
+                in 1999.</b>
+               The aim of this program is to mitigate and prevend floodind and soil erosion.
+               In the program, farmers are paid for planting trees on their agricultural land and cultivating some barren lands instead.
+               Reforestation in China has been brought by constant nation wide effors represented by these two program.
+
+            </p>
           </div>
         </div>
       </div>
+
+      <!-- 5.1.2 India -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <iframe src = "img/plots/reforestation/India.html" height="800" width="650" frameborder="0" scrolling="no"></iframe>
+        <div class="col-xl-4 col-lg-5 order-lg-first">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Reforestation in India</h4>
+            <p class="text-black mb-0">
+              <b>India also has succeeded in constant expansion of tree covered area by forest planting without shrinking agricultural areas.</b>
+              This two decades see the continuous growth of planted forests areas,
+              and one of <b>the main factors for it is
+              <a href="https://countercurrents.org/2017/09/compensatory-afforestation-myths-and-reality">
+                <strong>'Compensatory Afforestation'</strong>
+              </a>
+              , which is derived from Forest Conservation Act, 1980.</b>
+              Agencies to develop forested areas are obliged to compemsate the tree losses by planting by theirselves or other firms.
+              The way of forest valuation is still controvertial, however this program surely has made good result for reforestation in the nation.
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </section>
 
@@ -415,9 +519,13 @@
 
 
   <!-- Footer -->
-  <footer class="bg-black large text-center text-white-50">
+  <footer class="bg-black small text-center text-white-50">
+
     <div class="container">
       By Chun-Hung Yeh, Martin Kostelanský, Hiroki Hayakawa & Michele Vidulis
+    </div>
+    <div class="bg-black large text-center text-white-50">
+      All of our plots and analysis are based on <a href="https://www.kaggle.com/unitednations/global-food-agriculture-statistics#fao_data_forest_data.csv"><strong>Global Food & Agriculture Statistics</strong></a>.</h4>
     </div>
     <div class="social d-flex justify-content-center">
       <a href="https://github.com/kostelansky17/disappearing_forests" class="mx-2">
