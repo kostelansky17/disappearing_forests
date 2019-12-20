@@ -1,1 +1,0 @@
-// hover the quote
