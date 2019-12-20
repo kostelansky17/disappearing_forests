@@ -120,7 +120,7 @@ We will mainly work with [Global Food & Agriculture Statistics](https://www.kagg
 - Poster Presentation
 
 ## Contribution
-* [Chun-Hung Yeh](https://github.com/yehchunhung):
-* [Hiroki Hayakawa](https://github.com/hirokihayakawa07):
-* [Michele Vidulis](https://github.com/MicheleVidulis):
-* [Martin Kostelanský](https://github.com/kostelansky17): Setting up GitHub page, 'Trade' part, graphics
+* [Chun-Hung Yeh](https://github.com/yehchunhung): Analyzing and finding the trend of desforestation in 'Trend' section, organizing the webpage of our data story, cleaning and updating our jupyter notebook, preparing the design of our poster.
+* [Hiroki Hayakawa](https://github.com/hirokihayakawa07): Writing up the description in the data story
+* [Michele Vidulis](https://github.com/MicheleVidulis): Problem formulation, writing up the description in the data story.
+* [Martin Kostelanský](https://github.com/kostelansky17): Problem formulation, setting up GitHub page, analyzing and making plots in 'Trade' section.
